@@ -4,10 +4,20 @@ const figlet = require("figlet");
 const shell = require("shelljs");
 
 const initializeGame = () => {
+  let boardStatus = [
+    [null, null, null],
+    [null, null, null],
+    [null, null, null]
+  ]
+
   let board = ['____ ____ ____\n', '____ ____ ____\n', '____ ____ ____\n'];
   console.log(
     `${board}`
   );
+}
+
+const updateBoard = () => {
+
 }
 
 
